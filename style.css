@@ -1,0 +1,23 @@
+* {
+    background-color: rgb(39, 39, 39);
+}
+
+#drawingSpace {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 96px;
+    font-weight: 500;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    background-color: red; 
+    display: flex;
+    flex: 1; 
+}
